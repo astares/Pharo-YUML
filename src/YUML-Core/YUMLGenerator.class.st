@@ -11,9 +11,15 @@ Class {
 }
 
 { #category : #example }
-YUMLGenerator class >> example [
+YUMLGenerator class >> exampleBoolean [
 
 	self open: Boolean
+]
+
+{ #category : #example }
+YUMLGenerator class >> exampleCollection [
+
+	self open: Collection
 ]
 
 { #category : #'interface opening' }
