@@ -22,6 +22,12 @@ YUMLGenerator class >> exampleCollection [
 	self open: Collection
 ]
 
+{ #category : #example }
+YUMLGenerator class >> exampleString [
+
+	self open: String
+]
+
 { #category : #'interface opening' }
 YUMLGenerator class >> open: aClass [
 	|content|
