@@ -19,19 +19,19 @@ Metacello new
 
 ## Documentation
 
-The project includes a simple class that you can use to generate the link by giving the start of the hierarchy:
+The project includes a simple class that you can use to generate the link by giving the start of the hierarchy. For example the expression:
 
 ```Smalltalk
 YUMLGenerator new generateHierarchyFor: String
 ```
 
-which will return a URL string for [yuml.me](http://yuml.me) service:
+will return a URL string for [yuml.me](http://yuml.me) service:
 
 ```
 https://yuml.me/diagram/class/class/[String],[String]%5E-[ByteString],[String]%5E-[Symbol],[Symbol]%5E-[ByteSymbol],[Symbol]%5E-[WideSymbol],[String]%5E-[WideString]
 ```
 
-which you then can embedd into your documentation
+which you can open in a browser manually but also easily embedd into your documentation.
 
 ![String hierarchy](https://yuml.me/diagram/class/class/[String],[String]%5E-[ByteString],[String]%5E-[Symbol],[Symbol]%5E-[ByteSymbol],[Symbol]%5E-[WideSymbol],[String]%5E-[WideString])
 
