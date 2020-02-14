@@ -41,5 +41,5 @@ If you want to check directly you can evaluate:
 YUMLGenerator open: String
 ```
 
-while will open your local webbrowser on the given URL
+while will open your local webbrowser on the generated URL link
 
