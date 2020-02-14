@@ -141,7 +141,7 @@ ConfigurationOfYUML >> pharo010: spec [
 			baseline: 'YUML' with: [ 
 				spec 
 					className: 'BaselineOfYUML';
-					repository: 'github://astares/Pharo-YUML:1.0.0/src' ]]
+					repository: 'github://astares/Pharo-YUML:0.1.0/src' ]]
 ]
 
 { #category : #accessing }
