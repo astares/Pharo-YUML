@@ -1,11 +1,11 @@
 # Pharo-YUML
-Simple YUML Link generator to document class hierarchies in Pharo.
+Simple YUML Link generator to document class hierarchies in [Pharo](http://www.pharo.org).
 
 ## Introduction
 
 Sometimes it is helpful to create a simple class hierarchy diagram within your documentation. There is an online service [yuml.me](http://yuml.me) which is able to generate diagrams based on given URL parameters.
 
-At it is cumbersome to write the URLs this little utility project allows you to directly generate a link from a given class to display a diagram of the subclass hierarchy.
+At it is cumbersome to write the URL pattern manually this little utility project allows you to directly generate a link from a given Pharo class to display a diagram of the subclass hierarchy.
 
 ## Quick Start 
 
