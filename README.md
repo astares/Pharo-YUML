@@ -17,6 +17,8 @@ Metacello new
 YUMLGenerator new generateHierarchyFor: String
 ```
 
+which will return a URL string for [yuml.me](http://yuml.me) service:
+
 ```
 https://yuml.me/diagram/class/class/[String],[String]%5E-[ByteString],[String]%5E-[Symbol],[Symbol]%5E-[ByteSymbol],[Symbol]%5E-[WideSymbol],[String]%5E-[WideString]
 ```
