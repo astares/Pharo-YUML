@@ -19,6 +19,8 @@ Metacello new
 
 ## Documentation
 
+The project includes a simple class that you can use to generate the link by giving the start of the hierarchy:
+
 ```Smalltalk
 YUMLGenerator new generateHierarchyFor: String
 ```
