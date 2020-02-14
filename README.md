@@ -9,6 +9,8 @@ At it is cumbersome to write the URL pattern manually this little utility projec
 
 ## Quick Start 
 
+You can load the project from Pharo catalog or via the following load script:
+
 ```Smalltalk
 Metacello new 
 	repository: 'github://astares/Pharo-YUML/src';
